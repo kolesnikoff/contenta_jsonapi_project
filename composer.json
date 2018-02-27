@@ -1,6 +1,6 @@
 {
-    "name": "contentacms/contenta-jsonapi-project",
-    "description": "Project template for ",
+    "name": "kolesnikoff/contenta-jsonapi-project",
+    "description": "Fork of contentacms/contenta-jsonapi-project with Docksal local environment.",
     "type": "project",
     "license": "GPL-2.0+",
     "authors": [
@@ -12,7 +12,7 @@
         }
     ],
     "require": {
-        "contentacms/contenta_jsonapi": "dev-8.x-1.x",
+        "kolesnikoff/contenta_jsonapi": "dev-8.x-1.x",
         "composer/installers": "^1.2",
         "drupal-composer/drupal-scaffold": "^2.2",
         "cweagans/composer-patches": "^1.6.0",
