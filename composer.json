@@ -7,12 +7,20 @@
     ],
     "repositories": [
         {
+            "url": "https://github.com/kolesnikoff/subrequests.git",
+            "type": "git"
+        },
+        {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "url": "https://github.com/kolesnikoff/contenta_jsonapi.git",
+            "type": "git"
         }
     ],
     "require": {
-        "kolesnikoff/contenta_jsonapi": "dev-8.x-1.x",
+        "contentacms/contenta_jsonapi": "dev-fix_dependency",
         "composer/installers": "^1.2",
         "drupal-composer/drupal-scaffold": "^2.2",
         "cweagans/composer-patches": "^1.6.0",
